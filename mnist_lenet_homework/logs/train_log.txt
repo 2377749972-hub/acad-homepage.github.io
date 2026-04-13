@@ -1,0 +1,9 @@
+[Run attempt in current container]
+python train_lenet.py
+Result: failed before training because PyTorch is not installed.
+Error: ModuleNotFoundError: No module named 'torch'
+
+Install attempts:
+1) pip install -r requirements.txt
+2) pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+Both failed due to proxy/network restrictions (403 Forbidden).
